@@ -1,0 +1,77 @@
+*{
+  font-family: 'Inter', sans-serif;
+}
+
+:root{
+  background-color: #3a3649;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+form, .success-message{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  color: rgb(43, 43, 43);
+  height: 50vh;
+  background-color: rgba(255, 255, 255, 0.377);
+  padding: 20px;
+  border-radius: 5%;
+  width: fit-content;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.164);
+}
+
+.success-message{
+  justify-content: center;
+  gap: 15px;
+}
+
+  input, textarea{
+    width: 40vw;
+    max-width: 300px;
+    height: 35px;
+    border: none;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.164);
+    border-radius: 5px;
+  }
+
+  input:focus,textarea:focus{
+    outline:solid 2px #3a3649;
+  }
+
+  textarea{
+    height: 70px;
+  }
+
+  button{
+    width: 50%;
+    height: 35px;
+    background-color: rgb(101, 97, 129);
+    color: white;
+    border: none;
+    border-radius: 5%;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.164);
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+
+    button:hover{
+      background-color: rgb(125, 120, 161);
+    }
+
+    button:active{
+      background-color: rgb(76, 73, 97);
+      box-shadow: none;
+    }
+
+  h1{
+    text-align: center;
+    width: 40vw;
+  }
+
+  
